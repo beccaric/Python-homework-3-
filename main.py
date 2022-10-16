@@ -37,6 +37,16 @@ elif age == 16:
 else:
   print("You can go trick or treating!")
 
+
+#HLT4
+#Ask the user to enter their first name. If the length of their first name is under five characters, ask them to enter their surname and display their full name in upper case. If the length of the first name is five or more characters, display their name in lower case. 
+  
+fname = input("Please enter your first name:")
+lname = input("Please enter your last name:")
+if fname <= '5':
+  print(fname.upper())
+
+  
 #HLT5
 #Ask how many people the user wants to invite to a party. If they enter a number below 10, ask for the names and after each name display “name” has been invited. If they enter a number which is 10 or higher, display the message “Too many people”. 
 
