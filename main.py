@@ -1,6 +1,6 @@
 #Python homework - 15 October 
 
-
+#HLT1
 #Ask for the total price of the bill, then ask how many diners there are. Divide the total bill by the number of diners and show how much each person must pay. 
 
 def totalbill():
@@ -11,6 +11,7 @@ def totalbill():
 
 print(totalbill())
 
+#HLT3
 #Ask the user’s age. If they are 18 or over, display the message “You can vote”. If they are aged 17, display the message “You can learn to drive”. If they are 16, display the message, “You can buy a lottery ticket”. If they are under 16, display the message “You can go trick or treating” 
 
 age=int(input("What is your age?"))
@@ -23,4 +24,13 @@ elif age == 16:
 else:
   print("You can go trick or treating!")
 
+#HLT5
+#Ask how many people the user wants to invite to a party. If they enter a number below 10, ask for the names and after each name display “name” has been invited. If they enter a number which is 10 or higher, display the message “Too many people”. 
 
+num=int(input("How many friends do you want to invite to the party?"))
+if num < 10:
+  for i in range(0, num):
+    name = input ("Enter a name:")
+    print(name, "has been invited")
+else:
+  print("Too many people!")
